@@ -158,7 +158,7 @@ public class DocumentClassifierLucene {
   }
 
   public static void main(String args[]) throws Exception {
-    File datasetFolder = new File ("/Users/andrewlui/Documents/Development/corpus/Reuters21578-Apte-90Cat/");
+    File datasetFolder = new File ("./corpus/Reuters21578-Apte-90Cat/");
     File trainFolder = new File(datasetFolder, "training");
     File testFolder = new File(datasetFolder, "test");
     File indexFolder = new File(datasetFolder, "index");
